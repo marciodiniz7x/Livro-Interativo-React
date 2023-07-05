@@ -2,11 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Fontes */
 @font-face {
-  font-family: 'NeoSans';
-  src: url() format('opentype');
+  font-family: 'Mystery Quest';
+  src: url('/fonts/MysteryQuest-Regular.ttf') format('opentype');
 }
 
+@font-face {
+  font-family: 'Bookletter';
+  src: url(/fonts/GoudyBookletter1911-Regular.ttf);
+}
+
+/* Base */
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -29,4 +36,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+h1 {
+  font-family: 'Bookletter';
 }
