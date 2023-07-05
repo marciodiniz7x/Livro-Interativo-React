@@ -2,6 +2,10 @@ export default function Home() {
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+  function iniciarCapa() {
+
+}
+
   return (
     
     <>
@@ -10,7 +14,7 @@ export default function Home() {
       <h1>Principal</h1>
     </div>
     <div>
-    <body onLoad={}>
+    <body onLoad={iniciarCapa}>
 
       <div className="capa">
           
