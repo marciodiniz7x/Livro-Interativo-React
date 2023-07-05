@@ -1,5 +1,3 @@
-import '../styles/capa.css';
-
 export default function Home() {
 
   return (
