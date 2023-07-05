@@ -1,7 +1,7 @@
-import Interface from "@/components/basicos/Interface";
+import Capa from "@/components/basicos/Capa";
 
 export default function interfacePrincipal() {
     return (
-        <Interface />
+        <Capa />
     )
 }

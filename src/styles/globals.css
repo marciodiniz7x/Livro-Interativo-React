@@ -41,3 +41,12 @@ body {
 h1 {
   font-family: 'Bookletter';
 }
+
+.capa {
+  width: 650px;
+  height: 900px;
+  background-image: url(../components/images/capa-bg.png);
+  margin-top: 10px;
+  background-size: cover;
+  background-position: center;
+}
