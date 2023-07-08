@@ -98,8 +98,15 @@ p {
 .capa button {
   background-color: green;
   color: white;
-  padding: 10px;
+  padding: 14px 30px 14px 30px;
   border-radius: 4px;
   margin-top: 50%;
-  box-shadow: 1px 1px 10px 1px ;
+  box-shadow: 1px 1px 10px 1px black;
+  transition: 400ms;
+}
+
+.capa button:hover {
+  background-color: rgb(171, 255, 46);
+  box-shadow: 1px 1px 20px 2px rgb(177, 236, 149);
+  color: rgb(95, 94, 94);
 }
