@@ -1,7 +1,9 @@
-import React from "react"
+import React from "react";
 
 export default function Capa() {
-
+    const handleClick = () => {
+        window.location.href = 'http://localhost:3000/basicos/interface';
+    }
 
     return (
         <body>
@@ -11,7 +13,7 @@ export default function Capa() {
                 <h1>
                     A Guerra das Épocas
                 </h1>
-                <button>Iniciar Leitura</button>
+                <button onClick={handleClick}>Iniciar Leitura</button>
             </div>
 
         </body>
