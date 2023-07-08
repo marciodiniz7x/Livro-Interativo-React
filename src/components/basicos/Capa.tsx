@@ -2,6 +2,7 @@ import React from "react"
 
 export default function Capa() {
 
+
     return (
         <body>
             
@@ -10,6 +11,7 @@ export default function Capa() {
                 <h1>
                     A Guerra das Épocas
                 </h1>
+                <button>Iniciar Leitura</button>
             </div>
 
         </body>
