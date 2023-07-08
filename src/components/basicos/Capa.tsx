@@ -1,11 +1,17 @@
 import React from "react"
 
-
 export default function Capa() {
 
     return (
-        <div>
-            <h1>Capa</h1>
-        </div>
+        <body>
+            
+            <div className="capa">
+                <span className={`text-2xl`}>Márcio Diniz</span>
+                <h1>
+                    A Guerra das Épocas
+                </h1>
+            </div>
+
+        </body>
     )
 }
