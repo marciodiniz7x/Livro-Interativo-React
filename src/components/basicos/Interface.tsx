@@ -6,15 +6,19 @@ export default function Interface() {
                 <div className="capitulos-area">
                     <div className="prologo">
                         <h2>Prólogo</h2>
-                        <span>O SALGUEIRO ETÉREO</span>
+                        <span>O SALGUEIRO ANCESTRAL</span>
                     </div>
                     <div className="capitulos-todos">
-                        <div className="ato1"></div>
-                        <div className="ato2"></div>
-                        <div className="ato3"></div>
-                        <div className="ato4"></div>
-                        <div className="ato5"></div>
-                        <div className="ato6"></div>
+                        <div className="ato1 atos"></div>
+                        <div className="ato2 atos"></div>
+                        <div className="ato3 atos"></div>
+                        <div className="ato4 atos"></div>
+                        <div className="ato5 atos"></div>
+                        <div className="ato6 atos"></div>
+                    </div>
+                    <div className="prologo">
+                        <h2>Ato Final</h2>
+                        <span>A CASCATA DAS ERAS</span>
                     </div>
                 </div>
             </div>
