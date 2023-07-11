@@ -9,8 +9,14 @@ export default function Interface() {
                         <span>O SALGUEIRO ANCESTRAL</span>
                     </div>
                     <div className="capitulos-todos">
-                        <div className="ato1 atos"></div>
-                        <div className="ato2 atos"></div>
+                        <div className="ato1 atos">
+                            <h2>Ato das Cavernas:</h2>
+                            <span>ARDRA, O ELEMENTISTA</span>
+                        </div>
+                        <div className="ato2 atos">
+                            <h2>Ato da Idade Antiga:</h2>
+                            <span>ARDRA, O ELEMENTISTA</span>
+                        </div>
                         <div className="ato3 atos"></div>
                         <div className="ato4 atos"></div>
                         <div className="ato5 atos"></div>
