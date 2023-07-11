@@ -78,25 +78,28 @@ p {
   height: 1125px;
   transform: scale(0.8);
   padding: 20px;
-  box-shadow: 1px 1px 10px 1px #3164217e;
+  box-shadow: 1px 1px 10px 1px #215f647e;
   border: 1px solid #3164215d;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(../components/images/capa-bg.png);
+  background-image: url(../components/images/capa-bg3.png);
   background-size: cover;
   perspective: 1000px;
   transition: 600ms;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
 }
 
 .capa h1 {
   margin-top: 80px;
-  font-size: 60px;
+  font-size: 65px;
+  text-shadow: 1px 1px 10px #bae6ff;
+  color: #ffffff;
 }
 
 .capa button {
-  background-color: green;
+  background-color: rgb(7, 96, 197);
   color: white;
   padding: 14px 30px 14px 30px;
   border-radius: 4px;
@@ -106,9 +109,9 @@ p {
 }
 
 .capa button:hover {
-  background-color: rgb(171, 255, 46);
-  box-shadow: 1px 1px 20px 2px rgb(177, 236, 149);
-  color: rgb(95, 94, 94);
+  background-color: rgb(46, 213, 255);
+  box-shadow: 1px 1px 20px 2px rgb(149, 226, 236);
+  color: #fff;
 }
 .interface {
   overflow: hidden;
