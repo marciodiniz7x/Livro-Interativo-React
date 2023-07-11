@@ -2,11 +2,12 @@ export default function Interface() {
     return (
         <body>
             <div className="interface">
-            <h1>
-                A Guerra das Épocas
-            </h1>
-            <span className="capitulo">Selecione o capítulo</span>
+                <h1>Escolha o seu Caminho</h1>
+                <div className="capitulos-area">
+                    
+                </div>
             </div>
+            
         </body>
     )
 }

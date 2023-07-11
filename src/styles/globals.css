@@ -113,6 +113,7 @@ p {
   box-shadow: 1px 1px 20px 2px rgb(149, 226, 236);
   color: #fff;
 }
+
 .interface {
   overflow: hidden;
   margin-top: -100px;
@@ -133,8 +134,13 @@ p {
 }
 
 .interface h1 {
-  font-size: 30px;
+  margin-top: 100px;
+  font-size: 50px;
 }
-.capitulo {
-  font-size: 30px;
+
+.capitulos-area {
+  margin-top: 50px;
+  border: 1px solid #000;
+  width: 600px;
+  height: 650px;
 }
