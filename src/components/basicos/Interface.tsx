@@ -1,6 +1,18 @@
 import React from "react"
 
 export default function Interface() {
+
+    const handleClick = () => {
+        window.location.href = 'http://localhost:3000';
+    }
+
+    const reloadClick = () => {
+        window.location.href = 'http://localhost:3000';
+        setTimeout(() => {
+            location.reload();
+        }, 100);
+    }
+
     return (
         <div className="body">
             <div className="interface">
@@ -89,6 +101,11 @@ export default function Interface() {
                         </div>
                     </div>
                     
+                </div>
+
+                <div className="botoes">
+                    <button onClick={handleClick}>Voltar à Capa</button>
+                    <button onClick={handleClick}>Voltar à Capa</button>
                 </div>
             </div>
         </div>

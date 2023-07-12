@@ -128,8 +128,8 @@ p {
 }
 
 .capa button:hover {
-  background-color: #23c483;
-  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  background-color: #8b5aff;
+  box-shadow: 0px 15px 20px rgba(175, 80, 253, 0.61);
   color: #fff;
   transform: translateY(-7px);
 }
@@ -223,7 +223,7 @@ p {
 .content {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   
   gap: 1px;
   color: #e8e8e8;
@@ -288,6 +288,41 @@ p {
 
 .content .btn:active {
   box-shadow: none;
+}
+
+.botoes {
+  display: flex;
+  gap: 30px;
+}
+
+.botoes button {
+  padding: 1.1em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #212121;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-top: 40px;
+  
+}
+
+.botoes button:hover {
+  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+  box-shadow: 0px 15px 20px rgba(229, 58, 46, 0.4);
+  color: #fff;
+  
+}
+
+.botoes button:active {
+  transform: translateY(-1px);
 }
 
 
