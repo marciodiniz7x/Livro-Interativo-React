@@ -266,6 +266,54 @@ p {
   transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
 }
 
+.ato0::before {
+  background: url(../components/images/ato0.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.ato1::before {
+  background: url(../components/images/ato1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.ato2::before {
+  background: url(../components/images/ato2.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.ato3::before {
+  background: url(../components/images/ato3.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.ato4::before {
+  background: url(../components/images/ato4.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.ato5::before {
+  background: url(../components/images/ato5.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.ato6::before {
+  background: url(../components/images/ato6.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.ato7::before {
+  background: url(../components/images/ato7.png);
+  background-size: cover;
+  background-position: center;
+}
+
 .card:hover::before {
   height: 100%;
 }
@@ -278,6 +326,7 @@ p {
 .card:hover .btn {
   color: #212121;
   background: #e8e8e8;
+  
 }
 
 .content .btn:hover {

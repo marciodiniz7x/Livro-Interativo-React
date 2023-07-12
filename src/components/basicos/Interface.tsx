@@ -18,7 +18,7 @@ export default function Interface() {
             <div className="interface">
                 <h1>Escolha o seu Caminho</h1>
                 <div className="capitulos-area">
-                    <div className="card ">
+                    <div className="card ato0">
                         <div className="content">
                             <p className="heading">Prólogo:
                             </p><p className="para">
@@ -49,7 +49,7 @@ export default function Interface() {
                             </div>
                         </div>
 
-                        <div className="card ato1">
+                        <div className="card ato3">
                             <div className="content">
                                 <p className="heading">Idade Média:
                                 </p><p className="para">
@@ -59,7 +59,7 @@ export default function Interface() {
                             </div>
                         </div>
 
-                        <div className="card ato1">
+                        <div className="card ato4">
                             <div className="content">
                                 <p className="heading">Era Industrial:
                                 </p><p className="para">
@@ -69,7 +69,7 @@ export default function Interface() {
                             </div>
                         </div>
 
-                        <div className="card ato1">
+                        <div className="card ato5">
                             <div className="content">
                                 <p className="heading">Era Moderna:
                                 </p><p className="para">
@@ -79,7 +79,7 @@ export default function Interface() {
                             </div>
                         </div>
 
-                        <div className="card ato1">
+                        <div className="card ato6">
                             <div className="content">
                                 <p className="heading">Futuro Distante:
                                 </p><p className="para">
@@ -91,7 +91,7 @@ export default function Interface() {
                         
                     </div>
 
-                    <div className="card ">
+                    <div className="card ato7">
                         <div className="content">
                             <p className="heading">Ato Final:
                             </p><p className="para">
