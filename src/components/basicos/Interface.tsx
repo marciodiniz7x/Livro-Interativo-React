@@ -105,7 +105,7 @@ export default function Interface() {
 
                 <div className="botoes">
                     <button onClick={handleClick}>Voltar à Capa</button>
-                    <button onClick={handleClick}>Voltar à Capa</button>
+                    <button onClick={reloadClick}>Reiniciar Livro</button>
                 </div>
             </div>
         </div>
