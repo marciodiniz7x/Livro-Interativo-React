@@ -163,6 +163,10 @@ p {
   width: 250px;
   height: 120px;
   border-radius: 6px;
+  background: url(../components/images/capa-bg3.png);
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
 }
 
 .capitulos-todos {
@@ -171,6 +175,7 @@ p {
   align-items: center;
   width: 550px;
   height: 400px;
+  text-shadow: 10px 10px 20px #000;
 }
 
 .atos {
@@ -182,4 +187,26 @@ p {
   height: 120px;
   border-radius: 6px;
   padding: 10px;
+  cursor: pointer;
 }
+
+.ato1 {
+  background: url(../components/images/ato1.png);
+}
+.ato2 {
+  background: url(../components/images/ato2.png);
+}
+.ato3 {
+  background: url(../components/images/ato3.png);
+}
+.ato4 {
+  background: url(../components/images/ato4.png);
+}
+.ato5 {
+  background: url(../components/images/ato5.png);
+}
+.ato6 {
+  background: url(../components/images/ato6.png);
+}
+
+
