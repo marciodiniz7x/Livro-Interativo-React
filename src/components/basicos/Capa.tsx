@@ -6,14 +6,12 @@ export default function Capa() {
     }
 
     return (
-        <body>
-            
+        <div className="body">
             <div className="capa">
-                <span className={`text-2xl`}>Márcio Diniz</span>
+                <span className='autor'>Márcio Diniz</span>
                 <h1>A Guerra das Épocas</h1>
                 <button onClick={handleClick}>Iniciar Leitura</button>
             </div>
-
-        </body>
+        </div>
     )
 }
