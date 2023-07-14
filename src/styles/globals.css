@@ -206,7 +206,7 @@ p {
 }
 
 .card {
-  border: 1px solid orangered;
+  border: 1px solid #c300ff;
   position: relative;
   display: flex;
   align-items: center;
@@ -249,7 +249,7 @@ p {
   font-size: 18px;
   border: none;
   cursor: pointer;
-  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+  background: linear-gradient(-45deg, #8c00ff 0%, #ff00ff 100% );
   border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
@@ -261,7 +261,7 @@ p {
   bottom: 0;
   width: 100%;
   height: 5px;
-  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+  background: linear-gradient(-45deg, #8c00ff 0%, #ff0f7b 100% );
   z-index: -1;
   transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
 }
@@ -364,8 +364,8 @@ p {
 }
 
 .botoes button:hover {
-  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
-  box-shadow: 0px 15px 20px rgba(229, 58, 46, 0.4);
+  background: linear-gradient(-45deg, #8c00ff 0%, #ff0f7b 100% );
+  box-shadow: 0px 15px 20px rgba(156, 46, 229, 0.4);
   color: #fff;
   
 }
