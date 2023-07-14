@@ -1,6 +1,16 @@
-import React from "react"
+import React, { useState } from "react"
 
 export default function Interface() {
+
+    const [comMouse, setComMouse] = useState(false);
+
+    const handleMouseEnter = () => {
+        setComMouse(true);
+    }
+
+    const handleMouseOut = () => {
+        setComMouse(false);
+    }
 
     const handleClick = () => {
         window.location.href = 'http://localhost:3000';
@@ -30,12 +40,26 @@ export default function Interface() {
                     <div className="capitulos-todos">
 
                         <div className="card ato1">
-                            <div className="content">
-                                <p className="heading">Pré-história:
-                                </p><p className="para">
+                            <div className="content"
+                                onMouseEnter={handleMouseEnter}
+                                onMouseLeave={handleMouseOut}
+                            >
+                                {comMouse ? (
+                                    <p className="heading">Aqui
+                                    </p>
+                                ) : (
+                                    <p className="heading">Pré-história:
+                                    </p>
+                                )}
+                                <p className="para">
                                 AARDRA
                                 </p>
-                                <button className="btn">Ler este arco</button>
+                                <button className="btn" 
+                                    onClick={() => {
+                                    alert('Leia "Prólogo" para desbloquear este capítulo.');
+                                }}>
+                                    Ler este arco
+                                </button>
                             </div>
                         </div>
 
