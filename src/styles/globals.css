@@ -129,7 +129,7 @@ p {
 }
 
 .capa button:hover {
-  background-color: #8b5aff;
+  background: linear-gradient(-45deg, #5900ff 0%, #cc02ff 100% );
   box-shadow: 0px 15px 20px rgba(175, 80, 253, 0.61);
   color: #fff;
   transform: translateY(-7px);
