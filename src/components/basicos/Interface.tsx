@@ -1,16 +1,6 @@
-import React, { useState } from "react"
+import React from "react"
 
 export default function Interface() {
-
-    const [comMouse, setComMouse] = useState(false);
-
-    const handleMouseEnter = () => {
-        setComMouse(true);
-    }
-
-    const handleMouseOut = () => {
-        setComMouse(false);
-    }
 
     const handleClick = () => {
         window.location.href = 'http://localhost:3000';
@@ -41,17 +31,12 @@ export default function Interface() {
 
                         <div className="card ato1">
                             <div className="content"
-                                onMouseEnter={handleMouseEnter}
-                                onMouseLeave={handleMouseOut}
+                                onMouseEnter={() => { 
+                                    
+                                }}
                             >
-                                {comMouse ? (
-                                    <p className="heading">Aqui
-                                    </p>
-                                ) : (
-                                    <p className="heading">Pré-história:
-                                    </p>
-                                )}
-                                <p className="para">
+                                <p className="heading">Pré-história:
+                                </p><p className="para">
                                 AARDRA
                                 </p>
                                 <button className="btn" 
