@@ -39,10 +39,7 @@ export default function Interface() {
                                 </p><p className="para">
                                 AARDRA
                                 </p>
-                                <button className="btn" 
-                                    onClick={() => {
-                                    alert('Leia "Prólogo" para desbloquear este capítulo.');
-                                }}>
+                                <button className="btn">
                                     Ler este arco
                                 </button>
                             </div>
