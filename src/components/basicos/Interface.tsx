@@ -1,20 +1,17 @@
 import React from "react"
-
 export default function Interface() {
 
     const handleClick = () => {
         window.location.href = 'http://localhost:3000';
     }
-
     const reloadClick = () => {
         window.location.href = 'http://localhost:3000';
         setTimeout(() => {
             location.reload();
         }, 100);
     }
-
     return (
-        <div className="body">
+        <div className="body-interface">
             <div className="interface">
                 <h1>Escolha o seu Caminho</h1>
                 <div className="capitulos-area">

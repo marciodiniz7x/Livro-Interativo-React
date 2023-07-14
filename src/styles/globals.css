@@ -37,7 +37,8 @@
 .body {
   font-family: 'Bookletter';
   font-size: 20px;
-  background-color: var(--bg-cor);
+  background-color: #212121;
+  background-size: cover;
   color: var(--txt-cor);
   line-height: 1.6;
 }
@@ -88,8 +89,8 @@ p {
   height: 1125px;
   transform: scale(0.8);
   padding: 20px;
-  box-shadow: 1px 1px 10px 1px #215f647e;
-  border: 1px solid #3164215d;
+  box-shadow: 1px 1px 500px 1px #7a17fc50;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -138,6 +139,11 @@ p {
   transform: translateY(-1px);
 }
 
+.body-interface {
+  background: url(../components/images/capa-bg4.png);
+  background-size: cover;
+}
+
 .interface {
   overflow: hidden;
   margin-top: -100px;
@@ -145,7 +151,7 @@ p {
   height: 1125px;
   transform: scale(0.8);
   padding: 20px;
-  box-shadow: 1px 1px 10px 1px #3164217e;
+  box-shadow: 1px 1px 500px 1px #7a17fc80;
   border: 1px solid #3164215d;
   display: flex;
   flex-direction: column;
