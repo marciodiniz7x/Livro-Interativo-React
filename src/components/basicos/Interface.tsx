@@ -1,5 +1,13 @@
-import React from "react"
+import React, { useEffect } from "react"
 export default function Interface() {
+
+    useEffect(() => {
+        document.title = 'A Guerra das Épocas'
+    })
+
+    function blockedChapter() {
+        alert('Capítulo bloqueado! Finalize o Prólogo para continuar.')
+    }
 
     const handleClick = () => {
         window.location.href = 'http://localhost:3000';
@@ -28,16 +36,14 @@ export default function Interface() {
                     <div className="capitulos-todos">
 
                         <div className="card ato1">
-                            <div className="content"
-                                onMouseEnter={() => { 
-                                    
-                                }}
-                            >
+                            <div className="content">
                                 <p className="heading">Pré-história:
                                 </p><p className="para">
                                 AARDRA
                                 </p>
-                                <button className="btn">
+                                <button className="btn"
+                                    onClick={blockedChapter}
+                                >
                                     Ler este arco
                                 </button>
                             </div>

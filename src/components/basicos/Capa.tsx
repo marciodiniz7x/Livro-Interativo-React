@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 export default function Capa() {
+
+    useEffect(() => {
+        document.title = 'A Guerra das Épocas'
+    })
+
     const handleClick = () => {
         window.location.href = 'http://localhost:3000/basicos/interface';
     }
