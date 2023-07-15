@@ -12,6 +12,7 @@ export default function Interface() {
     }
     return (
         <div className="body-interface">
+            <div className="faixa"></div>
             <div className="interface">
                 <h1>Escolha o seu Caminho</h1>
                 <div className="capitulos-area">
@@ -111,6 +112,7 @@ export default function Interface() {
                     <button onClick={reloadClick}>Reiniciar Livro</button>
                 </div>
             </div>
+            
         </div>
     )
 }
